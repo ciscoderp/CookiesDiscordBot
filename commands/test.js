@@ -7,12 +7,12 @@ module.exports = {
         const Embed = new Discord.MessageEmbed()
             .setColor("#FF00FF")
             .setTitle("Member List")
-            .setURL('https://discord.gg/NyG7hHfMTV')
+            .setURL('https://discord.gg/')
             .setAuthor('Venezuelan Hideout', AvatarIcon)
             .setDescription('----------------\n\n');
         //forloop to .addFields
 
-            let Bots = message.guild.roles.cache.get('810947283910656001');
+            let Bots = message.guild.roles.cache.get('ROLE ID HERE');
             let botmap = Bots.members.map(m => m.user.username);
 
             for(bots of botmap){
@@ -20,7 +20,7 @@ module.exports = {
                     name: bots, value: '\u200B', inline: false},)
             }
 
-            let Admins = message.guild.roles.cache.get('810943488186253352');
+            let Admins = message.guild.roles.cache.get('ROLE ID HERE');
             let adminMap = Admins.members.map(m => m.user.username);
             for (admins of adminMap){
                 Embed.addFields({
@@ -36,7 +36,7 @@ module.exports = {
         message.channel.send(Embed);
 
 
-        //let Admin = message.guild.roles.cache.get('810943488186253352');
+        //let Admin = message.guild.roles.cache.get('');
         //let Map = Admin.members.map(m => m.user.tag);
 
         //  for(users of Map){
