@@ -22,11 +22,13 @@ module.exports = {
         const NewEmbed = new Discord.MessageEmbed()
             .setColor('#FF00FF')
             .setTitle("Current Roster as of\n" + date + " \n" + time)
-            .setURL('https://discord.gg/NyG7hHfMTV')
+            .setURL('https://discord.gg/')
             .setAuthor('Venezuelan Hideout', Icon)
             .setDescription('----------------\n\n');
 
         var i;
+        
+        //THis is a testing loop here.
         for(i = 0; i < 40; i++){
             NewEmbed.addField("COOLGUY"+i, '\u200B', true);
         }
