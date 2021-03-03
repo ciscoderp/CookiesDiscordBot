@@ -8,7 +8,7 @@ module.exports = {
         }
 
         let k = "44s";
-        let channel = message.guild.channels.cache.get('810945530678607912');
+        let channel = message.guild.channels.cache.get('CHANNEL ID');
         if (args.length > 0) {
             k = args.join(' ');
         }
