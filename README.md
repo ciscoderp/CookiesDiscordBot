@@ -1,4 +1,6 @@
-## Cookies Bot
+# OUTDATED
+
+## Cookies Bot 
 ---
 #### This is a bot that I am writing for 
 #### my friends discord server.
